@@ -7,4 +7,4 @@ Installation:
 ### 1) Installation of OCMovies:
 Follow instructions : https://github.com/OpenClassrooms-Student-Center/OCMovies-API-EN-FR
 
-### 2)
+### 2)Click on carousel.html
