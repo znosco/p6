@@ -1,0 +1,179 @@
+
+body{
+  background: #a18d8d;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif,Verdana, Geneva, Tahoma, sans-serif
+}
+h1{
+  font-size: 2em;
+  transform:translate(0px,0px);
+  font-family:  Tahoma, Haettenschweiler, 'Arial Narrow Bold', sans-serif,Verdana, Geneva
+}
+h2{
+  font-size: 1em;
+}
+
+header{
+  background:white;
+  display:flex;
+  justify-content:flex-end;
+  padding-right: 2em;
+  position:relative;
+}
+header img{
+  position:absolute;
+  left:0px
+}
+
+nav ul{
+  display:flex;
+  width:800px;
+  list-style-type: none;
+  justify-content:space-between ;
+}
+
+section#bestFilm{
+  background:rgb(61, 141, 71);
+  display:flex;
+  padding: 1em;
+  padding-left:0em;
+  position:relative;
+}
+
+#bestFilm_info {
+  padding-left: 2em;
+  font-size: 1.2em;
+}
+
+section#bestFilm h1 {
+  top : 0em;
+  font-size: 1.2em;
+
+}
+section#bestFilm_title {
+  font-size:1.4em;
+}
+#bestFilm_buttonInfo{
+  margin-left: 5em;
+  margin-top:0.5em;
+  font-size: 1.3em;
+}
+#carousels{
+  margin-top: 1rem;
+}
+.carousel { 
+    background: #e75f5f; 
+    padding-top:0%;
+    display: flex;
+    justify-content:space-between ;
+    
+   
+  }
+  figure.mover {
+    display:flex;
+    background-color: lawngreen;
+    justify-content:space-between ;
+    align-items: center;
+    height: 300px;
+    width: 100%;
+    max-width:1100px;
+  } 
+  figure.mover img { 
+    width: 100%; max-width:150px  ;
+    outline:1px solid transparent;
+    margin: 1em;
+  }
+  figure.mover img:nth-child(1) {display: inline-block; }
+  figure.mover img:nth-child(2) {display: inline-block; }
+  figure.mover img:nth-child(3) {display: inline-block; }
+  figure.mover img:nth-child(4) {display: inline-block; }
+  figure.mover img:nth-child(5) {display: inline-block; }
+  figure.mover img:nth-child(6) {display: none; }
+  figure.mover img:nth-child(7) {display: none }
+  figure.mover img:nth-child(8) {display: none; }
+  figure.mover img:nth-child(9) {display: none; }
+  figure.mover img:nth-child(10) {display: none; }
+
+ #carousels h2{
+  font-size: 1.5em;
+   align-self:flex-start ;
+   max-height: 30px;
+   background-color: lawngreen;
+   }
+
+.navigationL img {
+  
+  background-color: rgb(0, 252, 105);;
+  margin-top: 5.2em;
+  width: 3%;
+  padding:2em;
+  position:absolute;
+  left:2em;
+}
+.navigationR img {
+  
+  background-color: rgb(0, 252, 105);
+  margin-top: 5.2em;
+  width: 3%;
+  padding:2em;
+  position:absolute;
+  right:2em
+}
+
+
+/* The Modal (background) */
+.modal {
+  display:none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+
+/* Modal Content */
+.modal-content {
+  display: flex;
+  background-color: #a6cdd6;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+.modal-footer h2{
+  background-color: lawngreen;
+  font-size: 2em;
+}
+
+#img-modale{
+  width: 100%;
+  height :100%;
+    outline:1px solid transparent;
+    margin: 1em;
+}
+
+.modal-footer h3{
+  background-color: lightseagreen;
+  font-size: 1.2em;
+}
+
+
+/* The Close Button */
+.close {
+  color: #0f0f0f;
+  float: right;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}  
